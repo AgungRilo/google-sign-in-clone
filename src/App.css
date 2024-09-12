@@ -93,6 +93,13 @@ body {
   margin: auto;
 }
 
+.form select {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
 @media screen and (min-width: 425px) {
   .container{
     background-color: white;

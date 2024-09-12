@@ -95,35 +95,13 @@ function App() {
       <div className='navigation'>
         <div className='navigation-left'>
           <div className='form'>
-            <FormControl variant="standard" sx={{ minWidth: 200 }}>
-              <Select
-                // value={language}
-                // onChange={handleChange}
-                renderValue={() => <div>English (United Kingdom)</div>}
-                displayEmpty
-                inputProps={{ 'aria-label': 'Without label' }}
-                disableUnderline // Menghilangkan garis bawah
-                sx={{
-                  backgroundColor: "white",
-                  fontSize: '14px',
-                  height: "48px",
-                  color: '#000',
-                  '& .MuiSelect-icon': {
-                    color: '#666', // Warna ikon dropdown
-                  }
-                }}
-              >
-                <MenuItem value="English (United Kingdom)">
-                  <Typography variant="body2">English (United Kingdom)</Typography>
-                </MenuItem>
-                <MenuItem value="English (United States)">
-                  <Typography variant="body2">English (United States)</Typography>
-                </MenuItem>
-                <MenuItem value="Bahasa Indonesia">
-                  <Typography variant="body2">Bahasa Indonesia</Typography>
-                </MenuItem>
-              </Select>
-            </FormControl>
+            <select name="select">
+              <option value="English (United States) selected" >
+                English (United States)
+              </option>
+              <option value="Portugês (Brasil) ">Portugês (Brasil)</option>
+              <option value="Español (España)">Español (España)</option>
+            </select>
           </div>
 
         </div>
