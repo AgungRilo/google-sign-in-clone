@@ -279,7 +279,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .container {
-    padding: 100px 100px 0 100px;
+    padding: 200px 100px 0 100px;
     background-color: var(--gm3-sys-color-surface-container,#f0f4f9);
   }
 
@@ -334,15 +334,22 @@ body {
   
 }
 
-/* @media screen and (max-width: 1024) {
-  .container {
-    padding: 100px;
-    background-color: red;
 
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 220px 140px 0 140px;
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9);
   }
 
   .body {
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .body-left{
+    width: 70%;
   }
 
   body {
@@ -360,9 +367,86 @@ body {
   .footer{
     border-radius:0 0 28px 28px;
     justify-content: flex-end;
-    gap: 10px;
-    padding: 20px;
+    gap: 40px;
+    padding: 20px 36px 20px 20px;
 
   }
-} */
+  .navigation{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9);
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding:0 166px;
+    
+  }
+  .full-container{
+    height: 20%;
+  }
+  .css-1cf7fip-MuiInputBase-root-MuiInput-root-MuiSelect-root{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
+  }
+
+  .MuiInputBase-root .MuiInput-root .MuiInputBase-colorPrimary .MuiInputBase-formControl  .css-1ygu6i5{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
+  }
+  
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    padding: 320px 340px 0 340px;
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9);
+  }
+
+  .body {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .body-left{
+    width: 70%;
+  }
+
+  body {
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9)
+  }
+
+  .header {
+    display: flex;
+    border-radius:28px 28px 0 0 ;
+  }
+
+  .header-text-2 {
+    margin-top: 24px;
+  }
+  .footer{
+    border-radius:0 0 28px 28px;
+    justify-content: flex-end;
+    gap: 40px;
+    padding: 20px 36px 20px 20px;
+
+  }
+  .navigation{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9);
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding:0 360px;
+    
+  }
+  .full-container{
+    height: 20%;
+  }
+  .css-1cf7fip-MuiInputBase-root-MuiInput-root-MuiSelect-root{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
+  }
+
+  .MuiInputBase-root .MuiInput-root .MuiInputBase-colorPrimary .MuiInputBase-formControl  .css-1ygu6i5{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
+  }
+  
+}
+
 

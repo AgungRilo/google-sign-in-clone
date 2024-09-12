@@ -1,13 +1,9 @@
 import { useState } from 'react'
 import googleLogo from './assets/google.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
-import { Button, Select, TextField, MenuItem, OutlinedInput, Typography, FormControl } from '@mui/material'
-import { height, width } from '@mui/system'
+import { Button, TextField } from '@mui/material'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className='full-container'>
       <div className='container'>
