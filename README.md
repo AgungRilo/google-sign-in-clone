@@ -10,5 +10,5 @@ Currently, two official plugins are available:
 ![Alt Text](./src/assets//google425x861.png)
 ![Alt Text](./src/assets//google1024x768.png)
 ![Alt Text](./src/assets//google1440x861.png)
-![Alt Text](./src/assets//google1920x1080.png.png)
+![Alt Text](./src/assets//google1920x1080.png)
 
