@@ -234,6 +234,9 @@ body {
   .css-1cf7fip-MuiInputBase-root-MuiInput-root-MuiSelect-root{
     background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
   }
+  .MuiInputBase-root .MuiInput-root .MuiInputBase-colorPrimary .MuiInputBase-formControl  .css-1ygu6i5{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
+  }
 }
 
 /* @media screen and (max-width: 600px) {
@@ -315,6 +318,10 @@ body {
     height: 20%;
   }
   .css-1cf7fip-MuiInputBase-root-MuiInput-root-MuiSelect-root{
+    background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
+  }
+
+  .MuiInputBase-root .MuiInput-root .MuiInputBase-colorPrimary .MuiInputBase-formControl  .css-1ygu6i5{
     background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
   }
   
