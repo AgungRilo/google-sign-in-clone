@@ -136,6 +136,9 @@ body {
 
   .navigation{
     background-color: white;
+    display: flex;    
+    justify-content: space-between;
+    /* padding:0 110px; */
   }
   .form{
     margin:auto;
@@ -235,9 +238,9 @@ body {
     padding:0 110px;
     
   }
-  .full-container{
+  /* .full-container{
     height: 20%;
-  }
+  } */
   .css-1cf7fip-MuiInputBase-root-MuiInput-root-MuiSelect-root{
     background-color: var(--gm3-sys-color-surface-container,#f0f4f9) !important;
   }
